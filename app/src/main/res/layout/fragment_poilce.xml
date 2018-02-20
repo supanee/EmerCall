@@ -20,6 +20,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
+                <!--Station1-->
                 <ImageView
                     android:src="@drawable/station1"
                     android:layout_width="match_parent"
@@ -33,8 +34,9 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
+                <!--Station2-->
                 <ImageView
-                    android:src="@drawable/station1"
+                    android:src="@drawable/station2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
@@ -47,19 +49,20 @@
 
         <!--Blue Layout-->
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <!--Green Layout-->
             <RelativeLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
+                <!--Station3-->
                 <ImageView
-                    android:src="@drawable/station1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station3" />
 
             </RelativeLayout>
 
@@ -68,17 +71,13 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
+                <!--Station4-->
                 <ImageView
-                    android:src="@drawable/station1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station4" />
 
             </RelativeLayout>
-
-
-
-
-
 
 
         </LinearLayout>
