@@ -39,7 +39,7 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                Log.d(tag, "you cllick statation1");
+                Log.d(tag, "you click station1");
 
             }
         });
@@ -55,8 +55,36 @@ public class MainFragment extends Fragment {
 
 
         // For  Station 2
+        ImageView station2ImageViiew = getView().findViewById(R.id.imageViewStation2);
+        station2ImageViiew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callstation("2222");
+            }
+        });
+        TextView station2TextView = getView().findViewById(R.id.textvirwStation2);
+        station2TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callstation("2222");
+            }
+        });
 
         // For  Station 3
+        ImageView station3ImageViiew = getView().findViewById(R.id.);
+        station3ImageViiew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callstation("3333");
+            }
+        });
+        TextView station3TextView = getView().findViewById(R.id.textViewStation3);
+        station3TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callstation("3333");
+            }
+        });
 
         // For  Station 4
 

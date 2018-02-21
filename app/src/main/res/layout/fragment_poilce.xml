@@ -25,11 +25,6 @@
                 android:layout_height="@dimen/icon">
 
                 <!--Station1-->
-                <ImageView
-                    android:id="@+id/imageViewStation1"
-                    android:src="@drawable/station1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
 
                 <!--ritle-->
                 <TextView
@@ -46,6 +41,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
+                <ImageView
+                    android:id="@+id/imageViewStation1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/station1" />
+
             </RelativeLayout>
 
 
@@ -57,6 +60,7 @@
 
                 <!--Station2-->
                 <ImageView
+                    android:id="@+id/imageViewStation2"
                     android:src="@drawable/station2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
@@ -64,6 +68,8 @@
 
                 <!--ritle-->
                 <TextView
+                    android:clickable="true"
+                    android:id="@+id/textvirwStation2"
                     android:layout_alignParentBottom="true"
                     android:padding="5dp"
                     android:gravity="center_horizontal"
@@ -74,9 +80,6 @@
                     android:text="@string/station2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-
-
-
 
 
             </RelativeLayout>
@@ -100,22 +103,27 @@
 
                 <!--Station3-->
                 <ImageView
+                    android:id="@+id/imageViewStation3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station3" />
 
-                <!--ritle-->
                 <TextView
-                    android:layout_alignParentBottom="true"
-                    android:padding="5dp"
-                    android:gravity="center_horizontal"
-                    android:textColor="#ffffff"
-                    android:background="#82000000"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:text="@string/station3"
+                    android:id="@+id/textViewStation3"
+                    android:clickable="true"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="#82000000"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/station3"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!--ritle-->
 
             </RelativeLayout>
 
@@ -127,6 +135,7 @@
 
                 <!--Station4-->
                 <ImageView
+                    android:id="@+id/imageViewStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station4" />
