@@ -85,8 +85,22 @@ public class MainFragment extends Fragment {
                 callstation("3333");
             }
         });
-
         // For  Station 4
+        ImageView station4ImageViiew = getView().findViewById(R.id.);
+        station3ImageViiew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callstation("4444");
+            }
+        });
+        TextView station4TextView = getView().findViewById(R.id.textViewStation4);
+        station3TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callstation("4444");
+            }
+        });
+
 
     }// Main Method
 
