@@ -55,8 +55,8 @@ public class MainFragment extends Fragment {
 
 
         // For  Station 2
-        ImageView station2ImageViiew = getView().findViewById(R.id.imageViewStation2);
-        station2ImageViiew.setOnClickListener(new View.OnClickListener() {
+        ImageView station2ImageView = getView().findViewById(R.id.imageViewStation2);
+        station2ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 callstation("2222");
@@ -71,8 +71,8 @@ public class MainFragment extends Fragment {
         });
 
         // For  Station 3
-        ImageView station3ImageViiew = getView().findViewById(R.id.);
-        station3ImageViiew.setOnClickListener(new View.OnClickListener() {
+        ImageView station3ImageView = getView().findViewById(R.id.imageViewStation3);
+        station3ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 callstation("3333");
@@ -86,8 +86,8 @@ public class MainFragment extends Fragment {
             }
         });
         // For  Station 4
-        ImageView station4ImageViiew = getView().findViewById(R.id.);
-        station3ImageViiew.setOnClickListener(new View.OnClickListener() {
+        ImageView station4ImageView = getView().findViewById(R.id.imageViewStation4);
+        station4ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 callstation("4444");
@@ -104,7 +104,7 @@ public class MainFragment extends Fragment {
 
     }// Main Method
 
-    public void callstation(String numberCall) {
+    public void callstation (String numberCall) {
 
 
         Intent intent = new Intent(Intent.ACTION_CALL);
